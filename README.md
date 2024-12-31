@@ -1,4 +1,5 @@
 # VASP_opt_monitor
+## Monitor changes in system energy and atomic-force maximu during vasp optimization
 
 When performing structural optimization using VASP, we typically set the convergence parameter `EDIFFG = -0.02` in the `INCAR` file. This means that the optimization will terminate when the forces on all atoms in the structure are less than 0.02 eV/Å.
 
@@ -185,10 +186,5 @@ This allows for easy monitoring of both energy changes and force convergence dur
       15      15.5     16      16.5      17     17.5      18     18.5      19
                                    Ionic steps
 ```
-
-![image](https://github.com/user-attachments/assets/72737fc0-ff87-4151-82c0-b90161571d66)  
-![image](https://github.com/user-attachments/assets/467c03b5-81dd-42b6-b561-4ad92cc4bf6a)  
-![image](https://github.com/user-attachments/assets/00da449d-a01c-40df-a1b6-1ae06ed813fd)  
-![image](https://github.com/user-attachments/assets/e2bb9ff6-849a-4553-abb7-18badd5dc55a)  
 
 
